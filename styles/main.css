@@ -62,8 +62,8 @@ h6 {
 } */
 
 :root {
-  --base-font-size: 1.5rem;
   --base-font-size: 1.25rem;
+  --column-gap: 60px;
 }
 
 
@@ -94,25 +94,6 @@ h6 {
   font-display: swap;
 }
 
-
-
-
-/* @font-face {
-  font-family: 'IM FELL';
-  src: url('../assets/IM_FELL_Double_Pica_Italic.woff2') format('woff2'),
-      url('../assets/IM_FELL_Double_Pica_Italic.woff') format('woff');
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap;
-} */
-
-
-
-
-
-
-
-
 @font-face {
   font-family: 'IM FELL FLOWERS 1';
   src: url('../assets/IM_FELL_FLOWERS_1.woff2') format('woff2'),
@@ -131,31 +112,9 @@ h6 {
   font-display: swap;
 }
 
-/* @font-face {
-  font-family: 'IM FELL';
-  src: url('../assets/IM_FELL_Great_Primer_Italic.woff2') format('woff2'),
-      url('../assets/IM_FELL_Great_Primer_Italic.woff') format('woff');
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-} */
-
-/* @font-face {
-  font-family: 'IM FELL';
-  src: url('../assets/IM_FELL_Great_Primer_Roman.woff2') format('woff2'),
-      url('../assets/IM_FELL_Great_Primer_Roman.woff') format('woff');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-} */
-
-
-
-
-
-
 body {
   margin: 0 1rem;
+  color: #333;
 }
 
 h1 {
@@ -167,6 +126,8 @@ h1 {
   font-size: var(--base-font-size);
   font-family: 'IM FELL', serif;
   font-variant-ligatures: discretionary-ligatures;
+  border: 1px solid;
+  padding: calc(var(--column-gap)*1.7) 0;
 }
 
 .document header {
@@ -226,7 +187,10 @@ h1 {
 }
 
 .document main {
-  columns: 2 6em;
+  columns: 2 210px;
+  column-rule: 2px dotted;
+  column-gap: var(--column-gap);
+  margin: var(--column-gap);
 }
 
 .document main p:first-of-type::first-letter {
