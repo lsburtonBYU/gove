@@ -106,18 +106,18 @@ h1 {
   padding: 0;
 }
 
-.document .body {
+.document main {
   columns: 2 6em;
 }
 
-.document .body p:first-of-type::first-letter {
+.document main p:first-of-type::first-letter {
   font-size: 4.5em;
   margin-top: 0.125em;
   padding-right: 0.025em;
   float: left;
 }
 
-.document .body li {
+.document main li {
   text-indent: 1em;
 }
 
