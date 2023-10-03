@@ -62,8 +62,97 @@ h6 {
 } */
 
 :root {
-  --base-font-size: 1.8rem;
+  --base-font-size: 1.5rem;
+  --base-font-size: 1.25rem;
 }
+
+
+@font-face {
+  font-family: 'IM FELL';
+  src: url('../assets/IM_FELL_English_Roman.woff2') format('woff2'),
+      url('../assets/IM_FELL_English_Roman.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IM FELL';
+  src: url('../assets/IM_FELL_English_Italic.woff2') format('woff2'),
+      url('../assets/IM_FELL_English_Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IM FELL';
+  src: url('../assets/IM_FELL_Double_Pica_SC.woff2') format('woff2'),
+      url('../assets/IM_FELL_Double_Pica_SC.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+/* @font-face {
+  font-family: 'IM FELL';
+  src: url('../assets/IM_FELL_Double_Pica_Italic.woff2') format('woff2'),
+      url('../assets/IM_FELL_Double_Pica_Italic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+} */
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'IM FELL FLOWERS 1';
+  src: url('../assets/IM_FELL_FLOWERS_1.woff2') format('woff2'),
+      url('../assets/IM_FELL_FLOWERS_1.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IM FELL FLOWERS 2';
+  src: url('../assets/IM_FELL_FLOWERS_2.woff2') format('woff2'),
+      url('../assets/IM_FELL_FLOWERS_2.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* @font-face {
+  font-family: 'IM FELL';
+  src: url('../assets/IM_FELL_Great_Primer_Italic.woff2') format('woff2'),
+      url('../assets/IM_FELL_Great_Primer_Italic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+} */
+
+/* @font-face {
+  font-family: 'IM FELL';
+  src: url('../assets/IM_FELL_Great_Primer_Roman.woff2') format('woff2'),
+      url('../assets/IM_FELL_Great_Primer_Roman.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+} */
+
+
+
+
+
 
 body {
   margin: 0 1rem;
@@ -76,13 +165,29 @@ h1 {
 /*  document classes */
 .document {
   font-size: var(--base-font-size);
+  font-family: 'IM FELL', serif;
+  font-variant-ligatures: discretionary-ligatures;
 }
 
-.document .preface {
-  font-size: 1.5em;
-  font-variant: small-caps;
+.document header {
+  font-size: 1.75em;
+  font-weight: 900;
   letter-spacing: 0.2em;
   text-align: center;
+}
+
+.document header .wide {
+  letter-spacing: .5em;
+}
+
+.document header strong {
+  letter-spacing: .5em;
+  text-transform: uppercase;
+}
+
+.document header strong > em {
+  font-size: 1.4em;
+  letter-spacing: .9em;
 }
 
 .document h2 {
@@ -97,8 +202,22 @@ h1 {
   margin-bottom: 1em;
 }
 
-.document span {
+.document strong {
+  font-weight: 400;
   font-variant: small-caps;
+  letter-spacing: .1em;
+}
+
+.document strong > em {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+.document span {
+  /* font-variant: small-caps; */
+  font-weight: 600;
+  background-color: pink;
 }
 
 .document ul {
@@ -112,7 +231,7 @@ h1 {
 
 .document main p:first-of-type::first-letter {
   font-size: 4.5em;
-  margin-top: 0.125em;
+  margin-top: 0.1em;
   padding-right: 0.025em;
   float: left;
 }
@@ -121,15 +240,31 @@ h1 {
   text-indent: 1em;
 }
 
+.document .signers aside {
+  font-size: 2em;
+  font-style: italic;
+  text-align: center;
+  margin: 1em 0;
+}
+
+.document .signers ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.document .signers ul ul {
+  flex-direction: column;
+  gap: 0;
+}
+
 .document .signers li {
   font-weight: bold;
 }
 
 .document .signers ul ul li {
   font-weight: normal;
+  font-style: italic;
 }
 
-/* utility classes */
-.uppercase {
-  text-transform: uppercase;
-}
+

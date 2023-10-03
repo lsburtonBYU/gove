@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'IM FELL Double Pica';
+    src: url('IM_FELL_Double_Pica_Roman.woff2') format('woff2'),
+        url('IM_FELL_Double_Pica_Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IM FELL Double Pica SC';
+    src: url('IM_FELL_Double_Pica_SC.woff2') format('woff2'),
+        url('IM_FELL_Double_Pica_SC.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IM FELL Double Pica';
+    src: url('IM_FELL_Double_Pica_Italic.woff2') format('woff2'),
+        url('IM_FELL_Double_Pica_Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IM FELL English';
+    src: url('IM_FELL_English_Italic.woff2') format('woff2'),
+        url('IM_FELL_English_Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IM FELL English';
+    src: url('IM_FELL_English_Roman.woff2') format('woff2'),
+        url('IM_FELL_English_Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IM FELL English SC';
+    src: url('IM_FELL_English_SC.woff2') format('woff2'),
+        url('IM_FELL_English_SC.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IM FELL French Canon';
+    src: url('IM_FELL_French_Canon_Italic.woff2') format('woff2'),
+        url('IM_FELL_French_Canon_Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IM FELL French Canon';
+    src: url('IM_FELL_French_Canon_Roman.woff2') format('woff2'),
+        url('IM_FELL_French_Canon_Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IM FELL French Canon SC';
+    src: url('IM_FELL_French_Canon_SC.woff2') format('woff2'),
+        url('IM_FELL_French_Canon_SC.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IM FELL FLOWERS 1';
+    src: url('IM_FELL_FLOWERS_1.woff2') format('woff2'),
+        url('IM_FELL_FLOWERS_1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IM FELL FLOWERS 2';
+    src: url('IM_FELL_FLOWERS_2.woff2') format('woff2'),
+        url('IM_FELL_FLOWERS_2.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IM FELL Great Primer';
+    src: url('IM_FELL_Great_Primer_Italic.woff2') format('woff2'),
+        url('IM_FELL_Great_Primer_Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IM FELL Great Primer';
+    src: url('IM_FELL_Great_Primer_Roman.woff2') format('woff2'),
+        url('IM_FELL_Great_Primer_Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IM FELL Great Primer SC';
+    src: url('IM_FELL_Great_Primer_SC.woff2') format('woff2'),
+        url('IM_FELL_Great_Primer_SC.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IM FELL DW Pica';
+    src: url('IM_FELL_DW_Pica_Italic.woff2') format('woff2'),
+        url('IM_FELL_DW_Pica_Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IM FELL DW Pica';
+    src: url('IM_FELL_DW_Pica_Roman.woff2') format('woff2'),
+        url('IM_FELL_DW_Pica_Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IM FELL THREE LINE PICA';
+    src: url('IM_FELL_THREE_LINE_PICA.woff2') format('woff2'),
+        url('IM_FELL_THREE_LINE_PICA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IM FELL DW Pica SC';
+    src: url('IM_FELL_DW_Pica_SC.woff2') format('woff2'),
+        url('IM_FELL_DW_Pica_SC.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
