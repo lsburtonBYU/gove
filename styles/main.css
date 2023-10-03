@@ -253,6 +253,11 @@ h1 {
   gap: 1em;
 }
 
+.document .signers ul > li {
+  display: flex;
+  gap: 1em;
+}
+
 .document .signers ul ul {
   flex-direction: column;
   gap: 0;
