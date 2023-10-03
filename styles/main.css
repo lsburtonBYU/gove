@@ -270,6 +270,7 @@ h1 {
 .document .signers ul ul li {
   font-weight: normal;
   font-style: italic;
+  display: block;
 }
 
 
